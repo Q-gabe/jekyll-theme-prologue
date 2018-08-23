@@ -40,8 +40,7 @@ All new sections should be added as html or Markdown documents in the `_sections
 - `order` (required; orders the sequence of sections on the page. Example: `1`)
 - `cover-photo` (optional; sets a background image for the section. Example: `assets/images/banner.jpg`)
 - `cover-photo-alt` (required if using a cover photo. Describes the photo for screen readers and SEO; e.g. "Dome of Light art installation, Kaohsiung, Taiwan")
-- `icon` (optional; see [Font Awesome](https://fontawesome.com/icons) for icon codes. Example: `fa-github`)
-- `icon-style` (optional; "solid" is default, "regular" for outline style icons, or "brands" for logos)
+- `icon` (optional; see [Font Awesome](http://fontawesome.io/icons/) for icon codes. Example: `fa-github`)
 - `auto-header` (optional; "use-title" is default, "none" for no header, or custom header text)
 - `hide` (optional; if `true`, the section won't appear)
 
@@ -72,8 +71,7 @@ layout: page
 You can also set these page variables in the frontmatter, if you want:
 - `subtitle`
 - `order` (orders links in the nav menu, e.g. `1`)
-- `icon` (optional; see [Font Awesome](https://fontawesome.com/icons) for icon codes. Example: `fa-github`)
-- `icon-style` (optional; "solid" is default, "regular" for outline style icons, or "brands" for logos)
+- `icon` (optional; see [Font Awesome](http://fontawesome.io/icons/) for icon codes. Example: `fa-github`)
 - `hide` (optional; if `true`, a link won't appear in the nav menu. All this does is remove the nav link; your page will still be served to anyone who has the URL.)
 
 **This same set of frontmatter variables (including `title`) can also be set in `index.md` and `blog.html`.** You may want to give them titles, or hide the homepage link with `hide: true` if the homepage is the only page.
