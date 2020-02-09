@@ -491,6 +491,20 @@
 		}
 	}
 
+/* Projects Page */
+
+	.projectLinks {
+  		display: flex;
+  		flex-direction: row;
+  		justify-content: space-evenly;
+	}
+
+	.outlink {
+  		icon-b:before {
+    			padding-right: 5px;
+		}
+  	}
+
 /* Header */
 
 	#header {
